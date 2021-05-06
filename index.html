@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houtarou</title>
+    <link rel="stylesheet" href="st.css">
+    <link rel="shortcut icon" href="circle-cropped.png" type="image/png">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://kit.fontawesome.com/69b4dbbdab.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".ci").sortable({revert: true})
+        });
+    </script> 
+</head>
+<body class="center">
+    <div class="c">
+        <div class="co">
+            <div class="pr">
+                <img src="https://i.imgur.com/kuCtq5k.png">
+                <span id="title">Houtarou</span>
+            </div>
+            <div class="ci">
+                <div class="cic bio">
+                    <span id="biotuck">Иллюстратор хуйни в стиме</span>
+                    <span class="clickable">кликабельно*</span>
+                </div>
+                <div class="cic linkbl">
+                    <span class="nm">Links:</span>
+                    <ul class="links">
+                        <div class="links-div">
+                            <a href="http://steamcommunity.com/id/rosenfix">
+                                <li class="links-li"><i class="fab fa-steam-symbol"></i><span>Steam</span></li>
+                            </a>
+                            <a href="tg://resolve?domain=rosenfix">
+                                <li class="links-li"><i class="fab fa-telegram-plane"></i><span>Telegram</span></li>
+                            </a>
+                        </div>
+                        <div class="links-div">
+                            <a href="https://www.instagram.com/rosenfix/">
+                                <li class="links-li"><i class="fab fa-instagram"></i><span>Instagram</span></li>
+                            </a>
+                            <a href="https://www.deviantart.com/rosenfix">
+                                <li class="links-li"><i class="fab fa-deviantart"></i><span>DeviantArt</span></li>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+                <div class="cic tracks">
+                    <span class="nm">Tracks:</span>
+                    <ul id="trcks">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="background.gif" class="b">
+    <img src="background2.gif" class="bp">
+    <div class="phnk"></div>
+    <script src="CREATEDBYSPY.js"></script>
+</body>
+</html>
